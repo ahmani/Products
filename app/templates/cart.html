@@ -1,0 +1,10 @@
+<h2>Mon panier</h2>
+<ul class='cart'>
+	<li ng-repeat="product in cart.bought_products">
+		<ul class="sub_ul">
+			<li class="name">{{product.nom}}</li>
+			<li class="description">{{product.description}}</li>
+			<li class="prix">{{product.prix}}</li>
+		</ul>
+	</li>
+</ul>
