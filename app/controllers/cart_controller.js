@@ -7,7 +7,6 @@ angular.module('shop').controller('CartController', ['$scope', '$http',
 			$scope.cart.bought_products = [];
 
 			response.data.forEach(function(data){
-				//console.log(data);	
 				$scope.cart.bought_products.push(data);
 			})
 		},
